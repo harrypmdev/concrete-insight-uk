@@ -12,7 +12,7 @@ class SpecialHeader extends HTMLElement {
                             <li class="nav-item mx-1">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item dropdown mx-2 hover-underline-animation">
+                            <li class="nav-item dropdown mx-1 hover-underline-animation">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Intrusive Investigations
                             </a>
                             <ul class="dropdown-menu">
@@ -67,16 +67,20 @@ class SpecialHeader extends HTMLElement {
 class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <div class="footer mt-auto text-center">
-                <span id="bottom"> 
-                    <hr>
-                    <p>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                </p>
-                </span>
-            </div>
+            <footer class="d-flex flex-wrap justify-content-around align-items-center py-4 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="text-muted">© 2025 Concrete Insight UK</span>
+                </div>
+            
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-square-facebook fa-2xl"></i></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-google fa-xl"></i></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-square-instagram fa-2xl"></i></li>
+                </ul>
+            </footer>
     `
     }
 }
