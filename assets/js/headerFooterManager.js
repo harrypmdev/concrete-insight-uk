@@ -67,11 +67,8 @@ class SpecialHeader extends HTMLElement {
 class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <footer class="d-flex flex-wrap justify-content-around align-items-center py-4 my-4 border-top">
+            <footer class="d-flex flex-wrap justify-content-evenly align-items-center py-4 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                </a>
                 <span class="text-muted">© 2025 Concrete Insight UK</span>
                 </div>
             
