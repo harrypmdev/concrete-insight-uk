@@ -3,8 +3,8 @@
 
 #navbar, footer {
     color: #000000 !important;
-    background: #c9f5ff !important;
-    background: linear-gradient(90deg,rgba(201, 245, 255, 1) 1%, rgba(71, 200, 255, 1) 60%, rgba(135, 193, 255, 1) 100%) !important;
+    background: #b4f5fa !important;
+    background: linear-gradient(90deg,rgba(180, 245, 250, 1) 1%, rgba(102, 214, 255, 1) 60%, rgba(66, 220, 255, 1) 100%) !important;
     font-family: "Oswald", sans-serif;
     font-size: 0.9em;
     font-weight: 500 !important;
@@ -39,6 +39,18 @@ footer {
     background: #000000e7;
     border-radius: 50%;
     padding: .8rem;
+ }
+
+ .dropdown-menu {
+    border: 0 !important;
+    padding: 0 !important;
+    margin-top: 2rem !important;
+    border-radius: 0 !important;
+    background: #00000000;
+ }
+
+ .dropdown-menu > li > a {
+    padding: 1rem .75rem ;
  }
 
 #site-title {
@@ -96,6 +108,18 @@ footer {
     transform: scaleX(1);
     transform-origin: bottom center;
     }
+
+    .dropdown-menu {
+        background: rgb(130, 219, 255) !important;
+        transition: 0.3s;
+    }
+
+    .dropdown-menu > li > a:hover {
+        opacity: 1 !important;
+        background: rgb(76, 197, 224) !important;
+        transition: 1s;
+    }
+
 }
 
 /* Media query - laptops and larger (1028px) */
