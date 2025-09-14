@@ -3,7 +3,7 @@ class SpecialHeader extends HTMLElement {
         this.innerHTML = `
             <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a id="site-title" class="navbar-brand fw-bold ms-lg-2" href="#">CONCRETE INSIGHT UK</a>
+                    <a id="site-title" class="navbar-brand fw-bold ms-lg-2" href="#">CONCRETE • INSIGHT • UK</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
