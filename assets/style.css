@@ -44,9 +44,9 @@ footer {
  .dropdown-menu {
     border: 0 !important;
     padding: 0 !important;
-    margin-top: 2rem !important;
     border-radius: 0 !important;
-    background: #00000000;
+    background-color: transparent !important;
+    box-shadow: none !important;
  }
 
  .dropdown-menu > li > a {
@@ -112,6 +112,7 @@ footer {
     .dropdown-menu {
         background: rgb(130, 219, 255) !important;
         transition: 0.3s;
+        margin-top: 2rem !important;
     }
 
     .dropdown-menu > li > a:hover {
