@@ -54,6 +54,8 @@ footer {
  }
 
 #site-title {
+    display: inline-block;
+    width: auto !important;
     font-family: "Barlow", "Oswald", "Roboto", sans-serif !important;
     font-weight: 900 !important;
     font-size: 5vw;
