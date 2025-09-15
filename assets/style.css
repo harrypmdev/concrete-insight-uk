@@ -3,11 +3,14 @@
 
 #navbar, footer {
     color: #000000 !important;
-    background: #b4f5fa !important;
-    background: linear-gradient(90deg,rgba(180, 245, 250, 1) 1%, rgba(102, 214, 255, 1) 60%, rgba(66, 220, 255, 1) 100%) !important;
+    background: #94f6ff !important;
     font-family: "Oswald", sans-serif;
     font-size: 0.9em;
     font-weight: 600 !important;
+}
+
+#navbar {
+    box-shadow: 0px 2px 11px 0px #000000;
 }
 
 footer {
@@ -107,7 +110,7 @@ footer {
     }
 
     .nav-link:hover {
-        background-color: #00000010;
+        background-color: #0000001f;
         transition: 0.4s;
     }
 
