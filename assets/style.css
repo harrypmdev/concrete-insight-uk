@@ -17,9 +17,11 @@ footer {
     font-size: 1.1em;
 }
 
-button {
+.carousel-caption > button {
     text-transform: uppercase !important;
     font-family: "Oswald", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1.2rem;
 }
 
 .carousel {
@@ -38,7 +40,14 @@ button {
     width: 100%;
     padding: 2rem !important;
     background: #0000009f;
+    font-family: "Barlow";
+    font-size: 1.2rem;
  }
+
+  .carousel-caption > h5 {
+    font-weight: 700 !important;
+    font-size: 1.5rem;
+  }
 
  .carousel-button-holder {
     display: inline-flex;
