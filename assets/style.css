@@ -7,6 +7,7 @@
     font-family: "Oswald", sans-serif;
     font-size: 0.9em;
     font-weight: 600 !important;
+    border: none !important
 }
 
 footer {
@@ -72,12 +73,12 @@ footer {
     font-family: "Barlow", "Oswald", "Roboto", sans-serif !important;
     font-weight: 900 !important;
     font-size: 5vw;
-    border-top: .3rem solid #000000;
-    border-bottom: .3rem solid #000000;
+    border-top: .2em solid #000000;
+    border-bottom: .2em solid #000000;
     line-height: 1;
     padding-top: 0;
     padding-bottom: 0;
-    margin: 1rem 0;
+    margin: 1em 0;
 }
 
 #nav-header {
@@ -100,7 +101,7 @@ footer {
         background: #94c6ff !important;
         top: 3.35rem !important;
         box-shadow: 0 0 10px black !important;
-        clip-path: inset(0px -10px -10px -10px) !important;
+        clip-path: inset(1px -10px -10px -10px) !important;
         opacity: 0 !important;
         visibility: hidden !important;
         display: block !important;
@@ -130,9 +131,7 @@ footer {
 
     #site-title {
         font-size: 45px;
-        margin: 0.7rem 0;
-        border-top: .4rem solid #000000;
-        border-bottom: .4rem solid #000000;
+        margin: 0.7em 0;
     }
 
     .nav-link {
