@@ -9,10 +9,6 @@
     font-weight: 600 !important;
 }
 
-#navbar {
-    box-shadow: 0px 2px 11px 0px #000000;
-}
-
 footer {
     font-size: 1.1em;
 }
@@ -63,7 +59,7 @@ footer {
     padding: 0 !important;
     border-radius: 0 !important;
     background-color: transparent !important;
-    box-shadow: none !important;
+    margin-left: 3rem !important;
  }
 
  .dropdown-menu > li > a {
@@ -81,18 +77,18 @@ footer {
     line-height: 1;
     padding-top: 0;
     padding-bottom: 0;
+    margin: 1rem 0;
 }
 
 #nav-header {
-    background-color: #FFFFFF;
+    background: #94c6ff !important;
 }
 
 /* Bootstrap Large Breakpoint (992px) */
 @media screen and (min-width:992px) {
 
-    #site-title {
-        font-size: 45px;
-        /* padding-left: 3vw; */
+    #nav-header {
+        background-color: #FFFFFF !important;
     }
 
     .active {
@@ -109,6 +105,7 @@ footer {
         visibility: hidden !important;
         display: block !important;
         transition: 0.5s;
+        margin-left: 0 !important;
     }
 
     .dropdown-menu > li > a:hover {
@@ -132,6 +129,7 @@ footer {
 }
 
     #site-title {
+        font-size: 45px;
         margin: 0.7rem 0;
         border-top: .4rem solid #000000;
         border-bottom: .4rem solid #000000;
@@ -145,6 +143,10 @@ footer {
     .nav-link:hover {
         background-color: #0000001f;
         transition: 0.4s;
+    }
+
+    #navbar {
+        box-shadow: 0px 2px 11px 0px #000000;
     }
 
 }
