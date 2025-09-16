@@ -67,7 +67,7 @@ footer {
  }
 
  .dropdown-menu > li > a {
-    padding: 1rem .75rem ;
+    padding: 0.8rem 0.75rem ;
  }
 
 #site-title {
@@ -101,16 +101,35 @@ footer {
     }
 
     .dropdown-menu {
-        background: rgb(130, 219, 255) !important;
-        transition: 0.3s;
-        margin-top: 2rem !important;
+        background: #94c6ff !important;
+        top: 3.35rem !important;
+        box-shadow: 0 0 10px black !important;
+        clip-path: inset(0px -10px -10px -10px) !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        display: block !important;
+        transition: 0.5s;
     }
 
     .dropdown-menu > li > a:hover {
-        opacity: 1 !important;
-        background: rgb(76, 197, 224) !important;
-        transition: 1s;
+        background-color: #00000000;
+        transition: 0.4s;
     }
+
+    .dropdown-menu > li > a:hover {
+        background-color: #0000001f;
+        transition: 0.4s;
+    }
+
+    .dropdown:hover > .dropdown-menu {
+        visibility: visible !important;
+        opacity: 1 !important;
+        transition: 0.5s;
+    }
+    .dropdown > .dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+        pointer-events: none;
+}
 
     #site-title {
         margin: 0.7rem 0;
