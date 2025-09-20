@@ -87,6 +87,18 @@ footer {
     padding: 0.8rem 0.75rem ;
  }
 
+.btn-primary {
+    background: #1367c8 !important;
+    border: none !important;
+    color: #fff !important;
+    transition: 0.4s;
+}
+
+.btn-primary:hover {
+    background: #115eb7 !important;
+    transition: 0.2s;
+}
+
 #site-title {
     display: inline-block;
     width: auto !important;
@@ -106,8 +118,33 @@ footer {
 }
 
 #index-information {
-    background: #94c6ff;
     font-size: 1.4em;
+    background: #99e7ff;
+    background: linear-gradient(90deg,rgba(153, 231, 255, 1) 0%, rgba(114, 149, 247, 1) 100%);
+}
+
+/* --- Animations --- */
+
+[data-inviewport="fade-right"] { 
+  transition: 2s;
+  opacity: 1;
+  position: relative;
+  right: 150px;
+}
+[data-inviewport="fade-right"].is-inViewport { 
+  right: 0;
+  opacity: 1;
+}
+
+[data-inviewport="fade-left"] { 
+  transition: 2s;
+  opacity: 1;
+  position: relative;
+  left: 150px;
+}
+[data-inviewport="fade-left"].is-inViewport { 
+  left: 0;
+  opacity: 1;
 }
 
 /* Bootstrap Large Breakpoint (992px) */
