@@ -99,6 +99,15 @@ footer {
     transition: 0.2s;
 }
 
+.card {
+    background-color: #94c6ff !important;
+}
+
+.card > img {
+    object-fit: cover;
+    max-height: 40vh;
+}
+
 #site-title {
     display: inline-block;
     width: auto !important;
@@ -121,6 +130,16 @@ footer {
     font-size: 1.4em;
     background: #99e7ff;
     background: linear-gradient(90deg,rgba(153, 231, 255, 1) 0%, rgba(114, 149, 247, 1) 100%);
+}
+
+#index-tabs {
+  background: url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg") center center no-repeat;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg");
+    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg"); /* The least supported option. */
+  background-size: cover;
 }
 
 /* --- Animations --- */
