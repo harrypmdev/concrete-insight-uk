@@ -67,6 +67,7 @@ class SpecialHeader extends HTMLElement {
 class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+            <div id="map"></div>
             <footer class="d-flex flex-wrap justify-content-evenly align-items-center py-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
                 <span class="text-muted">© 2025 Concrete Insight UK</span>

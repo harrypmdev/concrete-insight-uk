@@ -142,6 +142,12 @@ footer {
   background-size: cover;
 }
 
+#map {
+    width: 100%;
+    height: 60vh;
+    border-top: #94c6ff .5rem solid;
+}
+
 /* --- Animations --- */
 
 [data-inviewport="fade-right"] { 

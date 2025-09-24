@@ -19,3 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(el);
   });
 });
+
+var map = L.map('map').setView([51, -0.4], 9);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var polygon = L.polygon([
+    [50.68600031718477, -0.9553387777987041],
+    [50.73871276651515, 0.6456011365207798],
+    [51.21560758185905, -0.48471658140918117]
+]).addTo(map);
