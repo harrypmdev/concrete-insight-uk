@@ -157,12 +157,23 @@ footer {
 
 [data-inviewport="fade-left"] { 
   transition: 2s;
-  opacity: 1;
+  opacity: 0;
   position: relative;
   left: 150px;
 }
 [data-inviewport="fade-left"].is-inViewport { 
   left: 0;
+  opacity: 1;
+}
+
+[data-inviewport="fade-up"] { 
+  transition: 2s;
+  opacity: 0;
+  position: relative;
+  top: 85px;
+}
+[data-inviewport="fade-up"].is-inViewport { 
+  top: 0;
   opacity: 1;
 }
 
