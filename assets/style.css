@@ -1,6 +1,10 @@
 
 /* background-color: F4F3F2 !important; */
 
+body {
+    font-family: "Oswald", sans-serif !important;
+}
+
 #navbar, footer {
     color: #000000 !important;
     background: #94c6ff !important;
@@ -12,6 +16,15 @@
 
 footer {
     font-size: 1.1em;
+}
+
+.CIK-button {
+    border-radius: 0% !important;
+    padding: 1rem 2rem !important;
+}
+
+.inherit-color {
+  color: inherit !important;
 }
 
 .index-ul {
@@ -108,6 +121,40 @@ footer {
     max-height: 40vh;
 }
 
+.service-background {
+    background: url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg") center center no-repeat;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg");
+    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg"); /* The least supported option. */
+    background-size: cover;
+}
+
+.service-box {
+    background: #94c6ff !important;
+}
+
+.service-image {
+    object-fit: fill;
+}
+
+.white {
+    background: #fff !important;
+}
+
+.split-vertical {
+    height: 100%; /* Ensure it fills the parent row */
+}
+
+.split-vertical > .col {
+    flex: 1 1 50%; /* Each child takes up 50% of the height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #site-title {
     display: inline-block;
     width: auto !important;
@@ -133,13 +180,13 @@ footer {
 }
 
 #index-tabs {
-  background: url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg") center center no-repeat;
+    background: url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg") center center no-repeat;
     background: black;
     overflow: hidden;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
     background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg");
     background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg"); /* The least supported option. */
-  background-size: cover;
+    background-size: cover;
 }
 
 #map {
