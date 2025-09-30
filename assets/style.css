@@ -154,6 +154,14 @@ footer {
     justify-content: center;
 }
 
+.form-group {
+    padding: 1rem 0;
+}
+
+.blue-gradient {
+    background: #99e7ff;
+    background: linear-gradient(90deg,rgba(153, 231, 255, 1) 0%, rgba(114, 149, 247, 1) 100%);
+}
 
 #site-title {
     display: inline-block;
@@ -175,8 +183,6 @@ footer {
 
 #index-information {
     font-size: 1.4em;
-    background: #99e7ff;
-    background: linear-gradient(90deg,rgba(153, 231, 255, 1) 0%, rgba(114, 149, 247, 1) 100%);
 }
 
 #index-tabs {
