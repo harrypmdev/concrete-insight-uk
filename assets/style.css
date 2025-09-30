@@ -156,7 +156,17 @@ footer {
 
 .form-group {
     padding: 1rem 0;
+    font-size: 1.2rem;
 }
+
+.form-group > input, .form-group > textarea {
+    border-radius: 0;
+    resize: none;
+}
+
+[type="submit"] {
+    font-size: 1.2rem !important;
+} 
 
 .blue-gradient {
     background: #99e7ff;
