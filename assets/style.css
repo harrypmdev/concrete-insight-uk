@@ -260,9 +260,9 @@ footer {
 
     .dropdown-menu {
         background: #94c6ff !important;
-        top: 3.35rem !important;
+        top: 3.33rem !important;
         box-shadow: 0 0 10px black !important;
-        clip-path: inset(1px -10px -10px -10px) !important;
+        clip-path: inset(0px -10px -10px -10px) !important;
         opacity: 0 !important;
         visibility: hidden !important;
         display: block !important;
