@@ -173,6 +173,21 @@ footer {
     background: linear-gradient(90deg,rgba(153, 231, 255, 1) 0%, rgba(114, 149, 247, 1) 100%);
 }
 
+.dropdown-item.active {
+    background-color: #94c6ff !important;
+    color: #000 !important;
+}
+
+.dropdown-item.active:hover{
+    background-color: #0000001f !important;
+    transition: 0.4s !important;
+}
+
+.dropdown-item:active {
+    background-color: #0000001f !important;
+    color: #000 !important;
+}
+
 #site-title {
     display: inline-block;
     width: auto !important;
@@ -208,7 +223,10 @@ footer {
 #map {
     width: 100%;
     height: 60vh;
-    border-top: #94c6ff .5rem solid;
+}
+
+#map.border-top {
+    border-top: #94c6ff .5rem solid !important;
 }
 
 /* --- Animations --- */

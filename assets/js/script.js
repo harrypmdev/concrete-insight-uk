@@ -30,3 +30,8 @@ var polygon = L.polygon([
     [50.73871276651515, 0.6456011365207798],
     [51.21560758185905, -0.48471658140918117]
 ]).addTo(map);
+
+// document.querySelector(".nav .nav-link").on("click", function(){
+//    document.querySelector(".nav").find(".active").removeClass("active");
+//    document.querySelector(this).addClass("active");
+// });
