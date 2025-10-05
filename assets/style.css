@@ -189,18 +189,34 @@ footer {
 }
 
 #site-title {
-    display: inline-block;
+    display: inline-flex;
+    align-self: center;
     width: auto !important;
     font-family: "Barlow", "Oswald", "Roboto", sans-serif !important;
     font-weight: 900 !important;
     font-size: 5vw;
-    border-top: .2em solid #000000;
-    border-bottom: .2em solid #000000;
     line-height: 1;
     padding-top: 0;
     padding-bottom: 0;
     margin: 1em 0;
+    text-decoration-line: underline;
+    text-decoration-thickness: .2em;
+    text-underline-offset: .05em; /* tweak to taste */
+    -webkit-text-decoration-thickness: .2em;
+    text-underline-position: under;
+    -webkit-text-underline-position: under;
 }
+
+/* top border via pseudo element */
+#site-title::before {
+  content: "";
+  display: block;
+  height: .2em;
+  background: #000;
+  width: 100%;
+  margin-bottom: .1em; /* tweak to adjust spacing above text */
+}
+
 
 #nav-header {
     background: #94c6ff !important;
