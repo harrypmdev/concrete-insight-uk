@@ -135,6 +135,11 @@ footer {
     background: #94c6ff !important;
 }
 
+.service-box-right {
+    background: #fff !important;
+    background: linear-gradient(0deg,#fff 0%, #94c6ff 100%) !important;
+}
+
 .service-image {
     object-fit: fill;
 }
@@ -216,7 +221,6 @@ footer {
   width: 100%;
   margin-bottom: .1em; /* tweak to adjust spacing above text */
 }
-
 
 #nav-header {
     background: #94c6ff !important;
