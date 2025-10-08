@@ -141,7 +141,7 @@ footer {
 }
 
 .service-image {
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .white {
@@ -191,6 +191,15 @@ footer {
 .dropdown-item:active {
     background-color: #0000001f !important;
     color: #000 !important;
+}
+
+.toastify {
+    font-size: 1.3em;
+    padding: 1em !important;
+}
+
+#service-box-text {
+    font-size: 1.1em;
 }
 
 #site-title {

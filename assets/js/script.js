@@ -1,3 +1,4 @@
+
 // Wait until the DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Create a single observer instance
@@ -35,3 +36,25 @@ var polygon = L.polygon([
 //    document.querySelector(".nav").find(".active").removeClass("active");
 //    document.querySelector(this).addClass("active");
 // });
+
+document.getElementById("query-submit").addEventListener("click", function(event) {
+  let queryTopic = document.getElementById("queryTopic").value;
+  let queryEmail = document.getElementById("queryEmail").value;
+  let queryText = document.getElementById("queryText").value;
+  if (!(queryTopic && queryEmail && queryText)) return;
+  event.preventDefault();
+  Toastify({
+    text: `${queryTopic} query submitted.`,
+    duration: 3000,
+    close: true,
+    gravity: "bottom", // `top` or `bottom`
+    position: "left", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "#5bc93dff",
+    },
+    onClick: function(){} // Callback after click
+  }).showToast();
+  document.getElementById("queryEmail").value = '';
+  document.getElementById("queryText").value = '';
+})
