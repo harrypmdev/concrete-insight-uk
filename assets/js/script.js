@@ -36,7 +36,7 @@ var polygon = L.polygon([
 //    document.querySelector(".nav").find(".active").removeClass("active");
 //    document.querySelector(this).addClass("active");
 // });
-
+if (document.getElementById("query-submit")) {
 document.getElementById("query-submit").addEventListener("click", function(event) {
   let queryTopic = document.getElementById("queryTopic").value;
   let queryEmail = document.getElementById("queryEmail").value;
@@ -58,3 +58,4 @@ document.getElementById("query-submit").addEventListener("click", function(event
   document.getElementById("queryEmail").value = '';
   document.getElementById("queryText").value = '';
 })
+}
