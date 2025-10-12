@@ -35,6 +35,27 @@ footer {
     margin-right: 3rem;
 }
 
+.contact-ul > li {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+
+}
+
+.contact-ul .fa-li {
+  position: static;      /* cancel the default absolute */
+  width: auto;           /* let flex size it naturally */
+  margin-right: 1em;  /* consistent gap between icon & button */
+}
+
+.contact-ul i {
+  font-size: 2rem;    /* same as your fa-2xl */
+  line-height: 1;        /* kills any extra vertical whitespace */
+}
+
+
 .small-image {
     max-width: 30vw;
     max-height: 70vh;
@@ -129,6 +150,21 @@ footer {
     background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg");
     background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg"); /* The least supported option. */
     background-size: cover;
+}
+
+.contact-us-background {
+    background: url("../assets/images/mesmerizing-view-beautiful-seascape-surrounded-by-greenery.jpg") center center no-repeat;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/mesmerizing-view-beautiful-seascape-surrounded-by-greenery.jpg");
+    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/mesmerizing-view-beautiful-seascape-surrounded-by-greenery.jpg"); /* The least supported option. */
+    background-size: cover;
+}
+
+.contact-us-box {
+    background: #94c6ff !important;
+    font-size: 1.15em;
 }
 
 .service-box {
