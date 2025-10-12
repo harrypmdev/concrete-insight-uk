@@ -35,13 +35,19 @@ footer {
     margin-right: 3rem;
 }
 
+.contact-ul {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
 .contact-ul > li {
-    margin: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1em 0;
+}
 
+.contact-ul-spacing > li {
+    margin: 1em;
 }
 
 .contact-ul .fa-li {
@@ -54,7 +60,6 @@ footer {
   font-size: 2rem;    /* same as your fa-2xl */
   line-height: 1;        /* kills any extra vertical whitespace */
 }
-
 
 .small-image {
     max-width: 30vw;
