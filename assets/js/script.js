@@ -44,14 +44,14 @@ document.getElementById("query-submit").addEventListener("click", function(event
   if (!(queryTopic && queryEmail && queryText)) return;
   event.preventDefault();
   Toastify({
-    text: `${queryTopic} query submitted.`,
+    text: `    ${queryTopic} query submitted.`,
     duration: 3000,
     close: true,
     gravity: "bottom", // `top` or `bottom`
     position: "left", // `left`, `center` or `right`
     stopOnFocus: true, // Prevents dismissing of toast on hover
     style: {
-      background: "#5bc93dff",
+      background: "#198754",
     },
     onClick: function(){} // Callback after click
   }).showToast();
