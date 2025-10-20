@@ -152,22 +152,22 @@ footer {
 }
 
 .service-background {
-    background: url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg") center center no-repeat;
+    background: url("../assets/images/provided-photos/coring/coring-4.webp") center center no-repeat;
     background: black;
     overflow: hidden;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg");
-    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/PrellerProvidedPhotos/Coring/coring-4.jpeg"); /* The least supported option. */
+    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/provided-photos/coring/coring-4.webp");
+    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/provided-photos/coring/coring-4.webp"); /* The least supported option. */
     background-size: cover;
 }
 
 .contact-us-background {
-    background: url("../assets/images/mesmerizing-view-beautiful-seascape-surrounded-by-greenery.jpg") center center no-repeat;
+    background: url("../assets/images/banners/sussex-landscape.webp") center center no-repeat;
     background: black;
     overflow: hidden;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/mesmerizing-view-beautiful-seascape-surrounded-by-greenery.jpg");
-    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/mesmerizing-view-beautiful-seascape-surrounded-by-greenery.jpg"); /* The least supported option. */
+    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/banners/sussex-landscape.webp");
+    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/banners/sussex-landscape.webp"); /* The least supported option. */
     background-size: cover;
 }
 
@@ -285,12 +285,12 @@ footer {
 }
 
 #index-tabs {
-    background: url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg") center center no-repeat;
+    background: url("../assets/images/banners/town-sunset.webp") center center no-repeat;
     background: black;
     overflow: hidden;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg");
-    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/asphalt-road-town-sunset-rural-landscape.jpg"); /* The least supported option. */
+    background: -webkit-linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/banners/town-sunset.webp");
+    background: linear-gradient(rgba(3, 8, 48, 0.892), rgba(54, 76, 95, 0.81)), url("../assets/images/banners/town-sunset.webp"); /* The least supported option. */
     background-size: cover;
 }
 
