@@ -5,6 +5,10 @@ body {
     font-family: "Oswald", sans-serif !important;
 }
 
+h2 {
+    scroll-margin-top: 55px;
+}
+
 #navbar, footer {
     color: #000000 !important;
     background: #94c6ff !important;
