@@ -82,7 +82,7 @@ footer {
     font-family: "Oswald", sans-serif !important;
 }
 
-.carousel-caption > button {
+.carousel-caption > a {
     text-transform: uppercase !important;
     font-family: "Oswald", sans-serif !important;
     font-weight: 600 !important;
