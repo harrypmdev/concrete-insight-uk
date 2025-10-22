@@ -32,30 +32,27 @@ var polygon = L.polygon([
     [51.21560758185905, -0.48471658140918117]
 ]).addTo(map);
 
-// document.querySelector(".nav .nav-link").on("click", function(){
-//    document.querySelector(".nav").find(".active").removeClass("active");
-//    document.querySelector(this).addClass("active");
-// });
-if (document.getElementById("query-submit")) {
-document.getElementById("query-submit").addEventListener("click", function(event) {
-  let queryTopic = document.getElementById("queryTopic").value;
-  let queryEmail = document.getElementById("queryEmail").value;
-  let queryText = document.getElementById("queryText").value;
-  if (!(queryTopic && queryEmail && queryText)) return;
-  event.preventDefault();
-  Toastify({
-    text: `    ${queryTopic} query submitted.`,
-    duration: 3000,
-    close: true,
-    gravity: "bottom", // `top` or `bottom`
-    position: "left", // `left`, `center` or `right`
-    stopOnFocus: true, // Prevents dismissing of toast on hover
-    style: {
-      background: "#198754",
-    },
-    onClick: function(){} // Callback after click
-  }).showToast();
-  document.getElementById("queryEmail").value = '';
-  document.getElementById("queryText").value = '';
-})
+for (let element of document.getElementsByClassName("query-submit")) {
+  element.addEventListener("click", function(event) {
+    let queryAndNumber = element.getAttribute('id').slice(0, -7);
+    let queryTopic = document.getElementById(`${queryAndNumber}Topic`);
+    let queryEmail = document.getElementById(`${queryAndNumber}Email`);
+    let queryText = document.getElementById(`${queryAndNumber}Text`);
+    if (!(queryTopic.value && queryEmail.value && queryText.value)) return;
+    event.preventDefault();
+    Toastify({
+      text: `${queryTopic.value} query submitted.`,
+      duration: 3000,
+      close: true,
+      gravity: "bottom", // `top` or `bottom`
+      position: "left", // `left`, `center` or `right`
+      stopOnFocus: true, // Prevents dismissing of toast on hover
+      style: {
+        background: "#198754",
+      },
+      onClick: function(){} // Callback after click
+    }).showToast();
+    queryEmail.value = '';
+    queryText.value = '';
+  })
 }
